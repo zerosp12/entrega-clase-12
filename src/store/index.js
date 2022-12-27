@@ -18,8 +18,6 @@ export default new Vuex.Store({
     },
     agregarItemTabla(state, object) {
       state.tablaLista.push(object)
-      console.log(object)
-      console.log(state.tablaLista)
     }
   },
   actions: {
